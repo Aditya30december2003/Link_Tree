@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
+    position: relative;
+    background-color: black;
+}
+body::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("./assets/imgs/space.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translateZ(0);
+    background-color: black;
+}
+.drone {
+    animation: levitate 10s ease-in-out infinite;
+}
+@keyframes levitate {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-200px);
+    }
+}
