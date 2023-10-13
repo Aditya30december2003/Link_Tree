@@ -9,6 +9,8 @@ import Github from '../src/assets/imgs/github.png'
 import linkedin from '../src/assets/imgs/linkedin.png'
 import Xlogo from '../src/assets/imgs/x-logo.webp'
 import Project from '../src/assets/imgs/project-icon.avif'
+import hostel from '../src/assets/imgs/hostel.png'
+import aurora from '../src/assets/imgs/aurora.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -168,7 +170,7 @@ function App() {
     </div>
 
     <div className="flex flex-col mt-[20px] gap-[20px] lg:w-[40rem] w-full mx-auto mb-20 md:w-[38rem] sm:w-[35rem]">
-        <a href= 'https://drive.google.com/drive/u/0/folders/1qy39EoIB9vmW1LgS4pAysWEiSw2CjqY2' 
+        <a target="_blank" href= 'https://aditya30december2003.github.io/Batflix/' 
             className="group relative inline-flex w-auto items-center justify-center overflow-hidden  bg-[#FFFFFF]  rounded-full px-8 py-7 font-medium text-white ">
             <span
                 className=" absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-transparent text-white">
@@ -178,9 +180,57 @@ function App() {
                 </svg>
             </span>
             <span 
-            className="font-bold ease absolute flex h-full w-full transform items-center justify-center text-black">Projects</span>
+            className="font-bold ease absolute flex h-full w-full transform items-center justify-center text-black">Netflix-clone</span>
             <div id="icon" className="absolute left-2 w-[50px] drop-shadow-lg">
-                <img src={Project} alt="" className="rounded-full"/>
+                <img src='https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456' alt="" className="rounded-full"/>
+            </div>
+        </a>
+
+        <a target="_blank" href= 'https://aditya30december2003.github.io/Hotstar/' 
+            className="group relative inline-flex w-auto items-center justify-center overflow-hidden  bg-[#FFFFFF]  rounded-full px-8 py-7 font-medium text-white ">
+            <span
+                className=" absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-transparent text-white">
+                <svg className="h-5 w-5" fill="none" strokeWidth="4" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                </svg>
+            </span>
+            <span 
+            className="font-bold ease absolute flex h-full w-full transform items-center justify-center text-black">Disney+ Hotstar-clone</span>
+            <div id="icon" className="absolute left-2 w-[50px] drop-shadow-lg">
+                <img src='https://images.news18.com/ibnlive/uploads/2021/07/1627543919_disney_hotstar_plus.jpg' alt="" className="rounded-full"/>
+            </div>
+        </a>
+
+        <a target='_blank' href= 'https://aditya30december2003.github.io/Food_Delivery_App/' 
+            className="group relative inline-flex w-auto items-center justify-center overflow-hidden  bg-[#FFFFFF]  rounded-full px-8 py-7 font-medium text-white ">
+            <span
+                className=" absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-transparent text-white">
+                <svg className="h-5 w-5" fill="none" strokeWidth="4" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                </svg>
+            </span>
+            <span 
+            className="font-bold ease absolute flex h-full w-full transform items-center justify-center text-black">hostelEats</span>
+            <div id="icon" className="absolute left-2 w-[50px] drop-shadow-lg">
+                <img src={hostel} alt="" className="rounded-full"/>
+            </div>
+        </a>
+
+        <a target='_blank' href= 'https://aditya30december2003.github.io/Travel_Website/' 
+            className="group relative inline-flex w-auto items-center justify-center overflow-hidden  bg-[#FFFFFF]  rounded-full px-8 py-7 font-medium text-white ">
+            <span
+                className=" absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-transparent text-white">
+                <svg className="h-5 w-5" fill="none" strokeWidth="4" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                </svg>
+            </span>
+            <span 
+            className="font-bold ease absolute flex h-full w-full transform items-center justify-center text-black">Aurora</span>
+            <div id="icon" className="absolute left-2 w-[50px] drop-shadow-lg">
+                <img src='https://cdn-icons-png.flaticon.com/512/201/201623.png' alt="" className="rounded-full"/>
             </div>
         </a>
         
