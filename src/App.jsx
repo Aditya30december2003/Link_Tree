@@ -32,7 +32,7 @@ function App() {
     </div>
 
 
-    <div className="grid grid-cols-5 gap-7 md:gap-16 lg:gap-20  mx-auto mt-[10rem] items-center w-7/10 relative h-full overflow-x-hidden overflow-y-hidden">
+    <div className="grid grid-cols-5 gap-8 md:gap-16 lg:gap-20  mx-auto mt-[10rem] items-center w-7/10 relative h-full overflow-x-hidden overflow-y-hidden">
 
         <a  target="_blank" href="mailto:adityasmjain@gmail.com"  className="text-white hover:scale-110 duration-500">
             <BiLogoGmail size={30} />
