@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Profile from '../src/assets/imgs/Aditya.jpeg'
+import Profile from '../src/assets/imgs/Aditya2.png'
 import Rover from '../src/assets/imgs/spaceship.png'
 import X from '../src/assets/imgs/x.png'
 import Github from '../src/assets/imgs/github.png'
@@ -23,7 +23,7 @@ function App() {
     <img src={Rover} className="drone fixed top-8 right-8  min-[1024px]:right-[400px] min-[1024px]:w-[300px] w-[200px]"/>
     <div className="overflow-x-hidden overflow-y-hidden relative w-full"></div>
     <div className="overflow-x-hidden overflow-y-hidden w-full h-full z-99 relative  my-32">
-        <img src={Profile} alt="profile" className="min-[1024px]:w-[120px] w-[110px] mx-auto rounded-[2rem]" />
+        <img src={Profile} alt="profile" className="min-[1024px]:w-[130px] w-[110px] mx-auto rounded-[10rem]" />
     </div>
     <div className="my-[-7.2rem] relative">
         <h1 className=" lg:text-3xl text-2xl font-bold text-center mt-4 text-white">Aditya Jain</h1>
@@ -173,6 +173,22 @@ function App() {
     </div>
 
     <div className="flex flex-col mt-[20px] gap-[20px] lg:w-[40rem] w-full mx-auto mb-20 md:w-[38rem] sm:w-[35rem]">
+        <a target="_blank" href= 'https://linkedin-ten-blond.vercel.app/' 
+            className="group relative inline-flex w-auto items-center justify-center overflow-hidden  bg-[#FFFFFF]  rounded-full px-8 py-7 font-medium text-white ">
+            <span
+                className=" absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-transparent text-white">
+                <svg className="h-5 w-5" fill="none" strokeWidth="4" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                </svg>
+            </span>
+            <span 
+            className="font-bold ease absolute flex h-full w-full transform items-center justify-center text-black">LinkedIn-clone</span>
+            <div id="icon" className="absolute left-2 w-[50px] drop-shadow-lg">
+                <img src={linkedin} alt="" className="rounded-full"/>
+            </div>
+        </a>
+
         <a target="_blank" href= 'https://aditya30december2003.github.io/Batflix/' 
             className="group relative inline-flex w-auto items-center justify-center overflow-hidden  bg-[#FFFFFF]  rounded-full px-8 py-7 font-medium text-white ">
             <span
