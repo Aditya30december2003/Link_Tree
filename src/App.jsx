@@ -237,7 +237,7 @@ function App() {
             </div>
         </a>
 
-    <a target='_blank' href= 'https://maps-theta-nine.vercel.app/' 
+{/*     <a target='_blank' href= 'https://maps-theta-nine.vercel.app/' 
             className="group relative inline-flex w-auto items-center justify-center overflow-hidden  bg-[#FFFFFF]  rounded-full px-8 py-7 font-medium text-white ">
             <span
                 className=" absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-transparent text-white">
@@ -267,7 +267,7 @@ function App() {
             <div id="icon" className="absolute left-2 w-[50px] drop-shadow-lg">
                 <img src='./src/assets/Dog_icon.png' alt="" className="rounded-full"/>
             </div>
-        </a> 
+        </a>  */}
         
     </div>
 
