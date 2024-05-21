@@ -10,6 +10,7 @@ import linkedin from '../src/assets/imgs/linkedin.png'
 import Xlogo from '../src/assets/imgs/x-logo.webp'
 import Project from '../src/assets/imgs/project-icon.avif'
 import hostel from '../src/assets/imgs/hostel.png'
+import dog from '../src/assets/imgs/Dog_icon.png'
 import aurora from '../src/assets/imgs/aurora.png'
 import {SiLeetcode} from 'react-icons/si'
 import {BiLogoGmail} from 'react-icons/bi'
@@ -34,19 +35,19 @@ function App() {
 
     <div className="grid grid-cols-5 gap-8 md:gap-16 lg:gap-20  mx-auto mt-[10rem] items-center w-7/10 relative h-full overflow-x-hidden overflow-y-hidden">
 
-        <a  href="mailto:adityasmjain@gmail.com"  className="text-white hover:scale-110 duration-500">
+        <a  target="_blank" href="mailto:adityasmjain@gmail.com"  className="text-white hover:scale-110 duration-500">
             <BiLogoGmail size={30} />
         </a>
 
-        <a   href="https://leetcode.com/leo100demigod/"  className="text-white hover:scale-110 duration-500">
+        <a  target="_blank" href="https://leetcode.com/leo100demigod/"  className="text-white hover:scale-110 duration-500">
            <SiLeetcode size={25} />
         </a>
 
-        <a className=""  href="https://twitter.com/AdityaJ47361990" >
+        <a className="" target="_blank" href="https://twitter.com/AdityaJ47361990" >
             <img src={X} width="20" height="20" className=""/>
         </a>
 
-        <a  href="https://github.com/Aditya30december2003" className="hover:scale-110 duration-500">
+        <a  target="_blank" href="https://github.com/Aditya30december2003" className="hover:scale-110 duration-500">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                 stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                 <path
@@ -56,7 +57,7 @@ function App() {
             </svg>
         </a>
 
-        <a  href="https://www.linkedin.com/in/aditya-jain-065484226/" className="hover:scale-110 duration-500">
+        <a target="_blank" href="https://www.linkedin.com/in/aditya-jain-065484226/" className="hover:scale-110 duration-500">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                 stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
@@ -74,7 +75,7 @@ function App() {
     </div>
 
     <div className="flex flex-col mt-[20px] gap-[20px] w-full mx-auto lg:w-[40rem] md:w-[38rem] sm:w-[35rem]">
-        <a  href="https://aditya30december2003.github.io/Personal_Portfolio/"
+        <a target='_blank' href="https://aditya30december2003.github.io/Personal_Portfolio/"
             className="group relative inline-flex w-auto items-center justify-center overflow-hidden  bg-[#FFFFFF]  rounded-full  py-7 font-medium text-white ">
             <span
                 className=" absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-transparent text-white">
@@ -173,7 +174,7 @@ function App() {
     </div>
 
     <div className="flex flex-col mt-[20px] gap-[20px] lg:w-[40rem] w-full mx-auto mb-20 md:w-[38rem] sm:w-[35rem]">
-        <a  href= 'https://linkedin-ten-blond.vercel.app/' 
+        <a target="_blank" href= 'https://linkedin-ten-blond.vercel.app/' 
             className="group relative inline-flex w-auto items-center justify-center overflow-hidden  bg-[#FFFFFF]  rounded-full px-8 py-7 font-medium text-white ">
             <span
                 className=" absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-transparent text-white">
@@ -189,7 +190,7 @@ function App() {
             </div>
         </a>
 
-        <a  href= 'https://aditya30december2003.github.io/Batflix/' 
+        <a target="_blank" href= 'https://aditya30december2003.github.io/Batflix/' 
             className="group relative inline-flex w-auto items-center justify-center overflow-hidden  bg-[#FFFFFF]  rounded-full px-8 py-7 font-medium text-white ">
             <span
                 className=" absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-transparent text-white">
@@ -205,7 +206,7 @@ function App() {
             </div>
         </a>
 
-        <a  href= 'https://aditya30december2003.github.io/Hotstar/' 
+        <a target="_blank" href= 'https://aditya30december2003.github.io/Hotstar/' 
             className="group relative inline-flex w-auto items-center justify-center overflow-hidden  bg-[#FFFFFF]  rounded-full px-8 py-7 font-medium text-white ">
             <span
                 className=" absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-transparent text-white">
@@ -221,7 +222,7 @@ function App() {
             </div>
         </a>
 
-        <a  href= 'https://aditya30december2003.github.io/Food_Delivery_App/' 
+        <a target='_blank' href= 'https://aditya30december2003.github.io/Food_Delivery_App/' 
             className="group relative inline-flex w-auto items-center justify-center overflow-hidden  bg-[#FFFFFF]  rounded-full px-8 py-7 font-medium text-white ">
             <span
                 className=" absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-transparent text-white">
@@ -237,7 +238,7 @@ function App() {
             </div>
         </a>
 
-        <a  href= 'https://aditya30december2003.github.io/Travel_Website/' 
+        <a target='_blank' href= 'https://aditya30december2003.github.io/Travel_Website/' 
             className="group relative inline-flex w-auto items-center justify-center overflow-hidden  bg-[#FFFFFF]  rounded-full px-8 py-7 font-medium text-white ">
             <span
                 className=" absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-transparent text-white">
@@ -253,7 +254,7 @@ function App() {
             </div>
         </a>
         
-    <a href= 'https://maps-theta-nine.vercel.app/' 
+             <a target='_blank' href= 'https://maps-theta-nine.vercel.app/' 
             className="group relative inline-flex w-auto items-center justify-center overflow-hidden  bg-[#FFFFFF]  rounded-full px-8 py-7 font-medium text-white ">
             <span
                 className=" absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-transparent text-white">
@@ -269,7 +270,7 @@ function App() {
             </div>
         </a> 
 
-      <a  href= 'https://doogle-seven.vercel.app/' 
+      <a target='_blank' href= 'https://doogle-seven.vercel.app/' 
             className="group relative inline-flex w-auto items-center justify-center overflow-hidden  bg-[#FFFFFF]  rounded-full px-8 py-7 font-medium text-white ">
             <span
                 className=" absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-transparent text-white">
@@ -281,7 +282,7 @@ function App() {
             <span 
             className="font-bold ease absolute flex h-full w-full transform items-center justify-center text-black">Doogle</span>
             <div id="icon" className="absolute left-2 w-[50px] drop-shadow-lg">
-                <img src='./src/assets/Dog_icon.png' alt="" className="rounded-full"/>
+                <img src={dog} alt="" className="rounded-full"/>
             </div>
         </a>  
     </div>
