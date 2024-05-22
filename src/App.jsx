@@ -174,6 +174,7 @@ function App() {
     </div>
 
     <div className="flex flex-col mt-[20px] gap-[20px] lg:w-[40rem] w-full mx-auto mb-20 md:w-[38rem] sm:w-[35rem]">
+<<<<<<< HEAD
         <a target="_blank" href= 'https://linkedin-ten-blond.vercel.app/' 
             className="group relative inline-flex w-auto items-center justify-center overflow-hidden  bg-[#FFFFFF]  rounded-full px-8 py-7 font-medium text-white ">
             <span
@@ -190,6 +191,8 @@ function App() {
             </div>
         </a>
 
+=======
+>>>>>>> 69adf29c3798404fc5bc4e8a12d703e15212cf02
         <a target="_blank" href= 'https://batflix-seven.vercel.app/' 
             className="group relative inline-flex w-auto items-center justify-center overflow-hidden  bg-[#FFFFFF]  rounded-full px-8 py-7 font-medium text-white ">
             <span
@@ -253,6 +256,38 @@ function App() {
                 <img src='https://cdn-icons-png.flaticon.com/512/201/201623.png' alt="" className="rounded-full"/>
             </div>
         </a>
+
+{/*     <a target='_blank' href= 'https://maps-theta-nine.vercel.app/' 
+            className="group relative inline-flex w-auto items-center justify-center overflow-hidden  bg-[#FFFFFF]  rounded-full px-8 py-7 font-medium text-white ">
+            <span
+                className=" absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-transparent text-white">
+                <svg className="h-5 w-5" fill="none" strokeWidth="4" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                </svg>
+            </span>
+            <span 
+            className="font-bold ease absolute flex h-full w-full transform items-center justify-center text-black">My College Maps</span>
+            <div id="icon" className="absolute left-2 w-[50px] drop-shadow-lg">
+                <img src='https://maps-theta-nine.vercel.app/assets/Icon-DMOQnnNt.png' alt="" className="rounded-full"/>
+            </div>
+        </a> 
+
+      <a target='_blank' href= 'https://doogle-seven.vercel.app/' 
+            className="group relative inline-flex w-auto items-center justify-center overflow-hidden  bg-[#FFFFFF]  rounded-full px-8 py-7 font-medium text-white ">
+            <span
+                className=" absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-transparent text-white">
+                <svg className="h-5 w-5" fill="none" strokeWidth="4" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                </svg>
+            </span>
+            <span 
+            className="font-bold ease absolute flex h-full w-full transform items-center justify-center text-black">Doogle</span>
+            <div id="icon" className="absolute left-2 w-[50px] drop-shadow-lg">
+                <img src='./src/assets/Dog_icon.png' alt="" className="rounded-full"/>
+            </div>
+        </a>  */}
         
              <a target='_blank' href= 'https://maps-theta-nine.vercel.app/' 
             className="group relative inline-flex w-auto items-center justify-center overflow-hidden  bg-[#FFFFFF]  rounded-full px-8 py-7 font-medium text-white ">
