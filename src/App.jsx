@@ -173,7 +173,7 @@ function App() {
     </div>
 
     <div className="flex flex-col mt-[20px] gap-[20px] lg:w-[40rem] w-full mx-auto mb-20 md:w-[38rem] sm:w-[35rem]">
-        <a target="_blank" href= 'https://aditya30december2003.github.io/Batflix/' 
+        <a target="_blank" href= 'https://batflix-seven.vercel.app/' 
             className="group relative inline-flex w-auto items-center justify-center overflow-hidden  bg-[#FFFFFF]  rounded-full px-8 py-7 font-medium text-white ">
             <span
                 className=" absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-transparent text-white">
